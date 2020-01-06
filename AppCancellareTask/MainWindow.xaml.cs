@@ -79,6 +79,7 @@ namespace AppCancellareTask
         private void btnStop_Click(object sender, RoutedEventArgs e)
         {
             stop = true;
+
         }
 
       
