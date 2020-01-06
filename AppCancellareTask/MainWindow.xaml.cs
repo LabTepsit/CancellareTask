@@ -75,6 +75,7 @@ namespace AppCancellareTask
 
         //iniizamo a considerare la possibilità di fermare un task
         bool stop = false;
+
         private void btnStop_Click(object sender, RoutedEventArgs e)
         {
             stop = true;
