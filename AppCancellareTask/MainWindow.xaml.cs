@@ -32,7 +32,7 @@ namespace AppCancellareTask
             for (int i = 0; i <= max; i++)
             {
                 Dispatcher.Invoke(() => UpdateUI(i, lbl));
-                Thread.Sleep(100);
+                Thread.Sleep(delay);
                 //per fermare TAsk
                 if (stop)
                     break;
